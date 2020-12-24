@@ -1,0 +1,377 @@
+/* Map styling*/
+#ce_map_container{border:2px solid #CCC;background-color:#CCC ; font-size:12px;}
+#ce_map_canvas{width:100%;height:300px}
+#ce-directionsPanel{background-color:#FFF}
+/* Direction */
+#ce-map-cpanel-switch{padding:8px;font-size:120%;height:40px;margin-top:2px;
+    background:#444 url("../images/map-icon.png") no-repeat 20px center}
+#ce-map-cpanel-switch a.ce-route,
+#ce-map-cpanel-switch a.ce-route:visited{color:#FFF;display:block;float:left;margin:10px 0 0 65px}
+.ce-map-cpanel fieldset{border-color:#CCC;border-style:solid none none;border-width:1px 0 0;clear:both; margin:3px}
+.ce-map-cpanel fieldset legend{font-size:150%}
+.ce-map-cpanel div{ clear:left;display:block; width:100%}
+.ce-map-cpanel label{ }
+.ce-map-cpanel div.submit div,.ce-map-cpanel div.submit div button{display:inline}
+/* Coordinates*/
+#ce-map-coordinates{background-color:#F2EFE9;height:15px;margin-top:2px;padding:5px 0}
+#ce-map-coordinates div{float:left;width:49%;text-align:center}
+.ce-map-coord-label{font-weight:bolder}
+.ce-map-coord-value{}
+/* MAP: End*/
+
+/*================================INFO CONTACT===========================*/
+.part-contact{
+    padding: 40px 0 45px;
+}
+.info-contact {
+    position: relative;
+    margin-bottom: 20px;
+}
+.info-contact .title {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#008a80;
+    text-transform: uppercase;
+}
+.info-contact .address{
+    margin-bottom: 15px;
+}
+.info-contact .address .name{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info-contact .address .be {
+    margin-bottom: 5px;
+    padding-left: 25px;
+    position: relative;
+}
+.info-contact .address .be:before {
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #008a80;
+}
+.info-contact .map a{
+    font-size: 13px;
+    line-height: 21px;
+    color:#008a80;
+}
+.info-contact .map a span{
+    padding-left: 25px;
+    position: relative;
+    background:url(../images/contact/i-map.svg) no-repeat center left;
+    background-size: 13px;
+}
+.info-contact .view-map-contact a:hover{
+    color:#42301e;
+}
+.info-contact .over{
+    overflow: hidden;
+}
+/*=================================INFO CONTACT V2================================*/
+.info-contact-v2{
+    margin-bottom: 30px;
+}
+.info-contact-v2 .info{
+    padding: 15px;
+    padding-right: 150px;
+    border:solid 1px #cccccc;
+    position: relative;
+}
+.info-contact-v2 .info .name{
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info-contact-v2 .info ul {
+    margin-bottom: 5px;
+}
+.info-contact-v2 .info ul li {
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.info-contact-v2 .info ul li:before {
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #666666;
+}
+.info-contact-v2 .info ul li:after{
+    content: ":";
+    position: absolute;
+    left: 23px;
+    top: 0;
+}
+.info-contact-v2 .info .img{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    max-width: 130px;
+}
+.info-contact-v2 .view-map-contact a {
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #333333;
+    text-transform: uppercase;
+    padding: 16px 15px;
+}
+.info-contact-v2 .view-map-contact a span{
+    padding-left: 20px;
+    position: relative;
+}
+.info-contact-v2 .view-map-contact a span:before {
+    content: "\f041";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.info-contact-v2 .view-map-contact a:hover{
+    background: #cccccc;
+    color:#333333;
+}
+/*=================================FORM CONTACT===================================*/
+.part-form{
+    padding: 40px 0 50px;
+    background: #f8fafd;
+}
+.form-contact {
+    padding: 25px 30px;
+    background-image: url(../images/contact/bg.jpg);
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.form-contact .textContact {
+    color: #666666;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+}
+.form-contact .textContact p{
+    padding: 0;
+}
+.form-contact .textContact span{
+    font-weight: bold;
+    color:#008a80;
+}
+.form-contact label {
+    font-weight: normal;
+    width:120px;
+    float:left;
+}
+.form-contact .colRight{
+    width:-webkit-calc(100% - 120px);
+    width:-moz-calc(100% - 120px);
+    width:-ms-calc(100% - 120px);
+    width:-o-calc(100% - 120px);
+    width:calc(100% - 120px);
+    overflow: hidden;
+}
+.form-contact input, .form-contact textarea, .form-contact select {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border:none;
+    box-shadow: 0px 1px 3px rgba(0, 138, 128, 0.2);
+}
+.form-contact textarea {
+    height: 122px;
+    resize: none;
+    padding-top: 7px;
+}
+.form-contact .faForm{
+    position: relative;
+}
+.form-contact .faForm:before{
+    font-family: FontAwesome;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color:#666666;
+}
+.form-contact button {
+    font-size: 15px;
+    line-height: 24px;
+    background: #008a80;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.form-contact button:hover{
+    background: #000000;
+}
+.form-contact .robot{
+    margin-right: 15px;
+}
+.gridButton{
+    margin:0 -10px;
+}
+.gridButton:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.gridButton .col{
+    width:50%;
+    float: left;
+    padding: 0 10px;
+}
+/*=================*/
+.form-contact.v2{
+    background-image: none;
+    background: transparent;
+    padding: 0;
+    max-width: 768px;
+    margin: 0 auto;
+}
+.form-contact.v2 label {
+    width:100%;
+}
+.form-contact.v2 .colRight{
+    width:100%;
+    overflow: hidden;
+}
+.form-contact.v2 .flexDesign{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.form-contact.v2 .gridButton{
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.form-contact.v2 .gridButton .col{
+    width:initial;
+    padding:0;
+    float: none;
+}
+.form-contact.v2 button{
+    width:200px;
+    margin-left: 10px;
+}
+/*=========================================================*/
+.part-contact .img{
+    text-align: center;
+}
+.designMap .fancybox-slide--iframe{
+    padding: 0px;
+    background: #ffffff;
+}
+.designMap .fancybox-slide--iframe .fancybox-content{
+    margin-bottom: 0;
+    height: 100%;
+}
+.designMap .fancybox-button{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    color:#008a80;
+    padding: 0;
+    top: 0px;
+    right: 0px;
+}
+#vnt-popup-map iframe{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+/*================================================================*/
+/*=========================RESPONSIVE=============================*/
+/*================================================================*/
+@media all and (max-width: 991px){
+.info-contact .view-map-contact {
+    position: relative;
+    top:initial;
+    left:initial;
+    right:initial;
+    bottom:initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+.info-contact ul{
+    margin-bottom: 5px;
+}
+.info-contact-v2 .info{
+    padding-right: 15px;
+}
+.form-contact{
+    padding:25px 10px;
+    background: #f5f5f5;
+}
+.form-contact form{
+    width:100%;
+}
+.form-contact .colRight{
+    float:none;
+    width:100%;
+}
+.liter {
+    display: block;
+}
+.col-right{
+    text-align: left;
+}
+}
+
+@media all and (max-width: 480px){
+.form-contact.v2 .flexDesign .flexLeft{
+    width:100%;
+    margin-bottom: 15px;
+}
+.form-contact.v2 .flexDesign{
+    display: block;
+}
+.form-contact.v2 .gridButton{
+    display: block;
+    margin: 0 -10px
+}
+.form-contact.v2 .gridButton .col{
+    width:50%;
+    float: left;
+    padding: 0 10px;
+}
+.form-contact.v2 button{
+    margin:0;
+    width:100%;
+}
+}

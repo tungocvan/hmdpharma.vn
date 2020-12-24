@@ -1,0 +1,48 @@
+/* -- Imported styles ----------------------------- */
+@import url("global.css");
+@import url("box.css");
+@import url("style.css");
+@import url("../../../vnt_upload/ckeditor/ck_style.css");
+
+.facebook-comment{
+    min-height: 190px;
+}
+.ui-datepicker .ui-datepicker-title select{
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+    appearance: menulist;
+    background-image: none;
+    padding-right: 0;
+}
+
+
+#bannerPopup.fancybox-content {
+    padding: 0;
+    background: none;
+    height: auto !important;
+}
+#bannerPopup .fancybox-close-small {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

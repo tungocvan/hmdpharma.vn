@@ -1,0 +1,44 @@
+.help-block {
+}
+
+.input-group-img {
+    width: 1%;
+    white-space: nowrap;
+    padding-left: 7px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.input-group-img img {
+    max-width: inherit;
+}
+
+.form-contact.v2 {
+    margin-bottom: 0;
+}
+
+.form-contact.v2 .flexDesign {
+    align-items: flex-start;
+}
+
+.part-contact .img {
+    width: 440px;
+    position: relative;
+}
+.part-contact .img .icon{
+    position: absolute;
+    background-image: url("../images/icon.png");
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+    top: 200px;
+    left: 100px;
+}
+.part-contact .img svg polygon {
+    fill: #008a80;
+}
+
+/*.part-contact .img svg polygon:hover {
+    fill: #008a80;
+    stroke: #008a80;
+}/**/

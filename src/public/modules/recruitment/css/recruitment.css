@@ -1,0 +1,832 @@
+.policy{
+    margin-bottom: 30px;
+    position: relative;
+}
+.policy .img{
+    position: relative;
+}
+.policy .img a{
+    display: block;
+    padding-top: 66.666666%;
+    position: relative;
+    overflow: hidden;
+}
+.policy .img a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s linear;
+    transition: -webkit-transform 4s cubic-bezier(0,.6,.45,1);
+    transition: transform 4s cubic-bezier(0,.6,.45,1);
+    transition: transform 4s cubic-bezier(0,.6,.45,1), -webkit-transform 7s cubic-bezier(0,.6,.45,1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.policy .img:hover a img{
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.policy .tend{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 13px 25px;
+    padding-right: 75px;
+    background: rgba(0,0,0,0.5);
+    pointer-events: none;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.policy .tend:before{
+    content: "";
+    position: absolute;
+    right:10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url(../images/recruit/i-arr.png) no-repeat center;
+}
+.policy .tend h3{
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: normal;
+    color: #FFFFFF;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.policy:hover .tend{
+    background: rgba(0, 138, 128, 0.8);
+}
+/*===========================================================*/
+.vnt-main-top.v-detail{
+    margin-bottom: 0;
+}
+.vnt-main-top.v-detail .main-tools{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0;
+    box-shadow: none;
+}
+.vnt-main-top.v-detail .main-tools .breadcrumb ul li a{
+    padding: 10px 0;
+    display: block;
+}
+.vnt-main-top.v-detail .main-tools .wrap{
+    max-width: 970px;
+    margin: 0 auto;
+}
+.vnt-main-top.v-detail .vnt-caption .fTitle{
+    font-size: 55px;
+    line-height: 65px;
+}
+.vnt-main-top.v-detail .vnt-slide{
+    height: 450px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vnt-main-top.v-detail .vnt-caption{
+    position: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+.wrap-content{
+    padding: 25px 10px 45px;
+    background: #ffffff;
+    margin-bottom: 35px;
+}
+.wrap-content .wrap{
+    max-width: 970px;
+    margin:0 auto;
+}
+.the-content{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+/*==========================================================*/
+.the-other .title{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.the-other .title h2{
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#008a80;
+}
+#slideOther .slick-list{
+    margin: 0 -15px;
+    padding: 10px 0;
+}
+#slideOther .item{
+    padding: 0 15px;
+}
+#slideOther .product{
+    margin-bottom: 0;
+}
+#slideOther .slick-arrow{
+    width:40px;
+    height:40px;
+    background: none;
+    border:none;
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    color:#008a80;
+}
+#slideOther .slick-prev{
+    left:-60px
+}
+#slideOther .slick-next{
+    right:-60px
+}
+#slideOther .slick-arrow:before{
+    font-family: FontAwesome;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    line-height: 24px;
+}
+#slideOther .slick-prev:before{
+    content: "\f060";
+}
+#slideOther .slick-next:before{
+    content: "\f061";
+}
+#slideOther .slick-arrow:hover{
+    color:#333333;
+}
+#slideOther .policy .tend{
+    padding-right: 0;
+}
+#slideOther .policy .tend h3{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+#slideOther .policy .tend:before{
+    display: none;
+}
+/*===================================================*/
+.recruitDesContent{
+    background: #f8fafd;
+    margin-bottom: 40px;
+}
+.recruitDesContent .grid{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.recruitDesContent .grid .col{
+    width: 50%;
+}
+.recruitDesContent .img img{
+    width: 100%;
+}
+.recruitDesContent .cont{
+    max-width: 585px;
+    float: right;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: justify;
+    padding-right: 80px;
+    padding-left: 10px;
+    padding-top: 50px;
+    position: relative;
+}
+.recruitDesContent .cont:before{
+    content: "\f10d";
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color:#008a80;
+    font-size: 36px;
+    line-height: 44px;
+}
+.titleRecruitContent{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color:#008a80;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.recruitTable table{
+    width:100%;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.recruitTable table tr th {
+    background: #008a80;
+    font-size: 15px;
+    line-height: 23px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    font-weight: normal;
+    border-left: solid 1px transparent;
+    border-top: solid 1px transparent;
+}
+.recruitTable table tr td {
+    padding: 19px 20px;
+    border-top: solid 1px transparent;
+    border-bottom: solid 1px transparent;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffffff;
+    background: #f8fafd;
+}
+.recruitTable table tr th:nth-child(3),
+.recruitTable table tr th:nth-child(5),
+.recruitTable table tr th:nth-child(6),
+.recruitTable table tr td:nth-child(3),
+.recruitTable table tr td:nth-child(5),
+.recruitTable table tr td:nth-child(6){
+    text-align: center;
+}
+.recruitTable table tr td:nth-child(1){
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.recruitTable table tr:hover td{
+    background: #ffffff;
+    border-color: #008a80;
+}
+.recruitTable .link a{
+    color: #1596d2;
+    font-weight: normal;
+}
+.recruitTable .link a span{
+    padding-right: 20px;
+    position: relative;
+}
+.recruitTable .link a span:before{
+    content: "\f101";
+    font-family: fontAwesome;
+    position: absolute;
+    right:0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/*========================================================*/
+.gridRR:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.gridRR .col{
+    width:50%;
+    float:left;
+}
+.recruitInfo{
+    margin-bottom: 20px;
+    background: #f8fafd;
+    padding: 20px 30px;
+}
+.recruitInfo .Attr {
+    padding: 5px 0px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.recruitInfo .Attr.p{
+    padding: 5px 0 4px;
+}
+.recruitInfo .Attr .n{
+    width: 170px;
+    float: left;
+    font-size: 15px;
+    line-height: 23px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+.recruitInfo .Attr .t{
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 23px;
+}
+.recruitInfo .Attr .c{
+    color: #970000;
+}
+.recruitInfo .gridRR .col:last-child .Attr{
+    justify-content: flex-end;
+}
+.recruitInfo .gridRR .col:last-child .Attr .n{
+}
+.recruitInfo .gridRR .col:last-child .Attr .t{
+    width: 130px;
+    flex-shrink: 0;
+    text-align: right;
+}
+.recruitInfo .date_share{
+    margin-bottom: 0;
+}
+.recruitInfo .date_share .ds_share{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.recruitInfo .date_share .ds_share ul li a{
+    width: 30px;
+    height: 30px;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.recruitInfo .date_share .ds_share .txt{
+    margin-right: 10px;
+}
+.recruitInfo .date_share .ds_share ul li a img {
+    filter: grayscale(100%) brightness(2.5);
+}
+.recruitInfo .date_share .ds_share ul li a:hover img{
+    filter: initial;
+}
+.recruitInfo .link a{
+    display: block;
+    color:#ffffff;
+}
+.recruitInfo .link a span{
+    padding-right: 35px;
+    position: relative;
+}
+.recruitInfo .link a span:before{
+    font-family: fontAwesome;
+    position: absolute;
+    right:0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.rTools a {
+    display: block;
+    font-size: 15px;
+    line-height: 23px;
+    border-top: solid 1px rgba(0, 0, 0, 0.07);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.07);
+    padding: 8px 0px 7px;
+}
+.rTools a span{
+    padding-right: 20px;
+    position: relative;
+}
+.rTools a span:before{
+    font-family: FontAwesome;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #0e4b8e;
+}
+.recruitRegis a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color:#ffffff;
+    background: #0e4b8e;
+    width: 270px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.recruitRegis{
+    margin-bottom: 30px;
+}
+.recruitRegis a:hover{
+    background: #ba2221;
+}
+/*=====================================================*/
+.boxRecruit{
+    margin-bottom: 20px;
+    background: #f8fafd;
+    padding: 20px 30px;
+}
+.boxRecruit.v2{
+    background: #ffffff;
+    border:solid 1px #008a80;
+}
+.boxRecruit .title {
+    position: relative;
+}
+.boxRecruit .title .toggle{
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0px;
+    cursor: pointer;
+}
+.boxRecruit .title .toggle:before{
+    content: "\f068";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.boxRecruit.closez .title .toggle:before{
+    content: "\f067";
+}
+.boxRecruit .title h3{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.boxRecruit .content{
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.boxRecruit.nop .content{
+    padding:0;
+}
+.boxRecruit .partContent{
+    margin-bottom: 15px;
+}
+.boxRecruit .partContent p{
+    padding: 2px 0px;
+}
+.boxRecruit .partContent .t1{font-weight: bold;}
+.boxRecruit .partAddress .be{
+    padding-left: 25px;
+    position: relative;
+}
+.boxRecruit .partAddress .be:before{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #008a80;
+}
+.boxRecruit .partAddress .be a.map{
+    text-decoration: underline;
+}
+.gridPR{
+    margin: 0 -5px;
+}
+.gridPR:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.gridPR .col{
+    width:50%;
+    float: left;
+    padding: 0 5px;
+}
+.boxRecruit .divP p.mb{
+    margin-bottom: 5px;
+}
+.boxRecruit .divP a{
+    display: block;
+    color:#ffffff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: bold;
+    padding: 9px 0px;
+}
+.boxRecruit .divP a span{
+    padding-left: 25px;
+    position: relative;
+}
+.boxRecruit .divP a span:before{
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+}
+/*============================*/
+.boxRecruit.v2 .title{
+}
+.boxRecruit .title h3{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #008a80;
+}
+.boxRecruit.v2 .content{
+    background: #FFFFFF;
+    padding: 0;
+}
+.formRecruit label{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    width: 120px;
+    float:left;
+}
+.formRecruit label span{
+    color:#e80000;
+}
+.formRecruit .colRight{
+    float:left;
+    width:-webkit-calc(100% - 120px);
+    width:-moz-calc(100% - 120px);
+    width:-ms-calc(100% - 120px);
+    width:calc(100% - 120px);
+}
+.formRecruit input[type="text"],
+.formRecruit select,
+.formRecruit textarea{
+    width:100%;
+    height:40px;
+    padding-left: 15px;
+    border: solid 1px #d1d1d1;
+    background-color: #ffffff;
+}
+.formRecruit input[type="file"] {
+    width: 100%;
+    background: #ffffff;
+    border: solid 1px #d1d1d1;
+    padding: 8px;
+}
+.formRecruit textarea{
+    height: 193px;
+    resize: none;
+}
+.formRecruit button {
+    width: 100%;
+    background: #008a80;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    padding: 8px 0px;
+    position: relative;
+    font-weight: bold;
+}
+.formRecruit button span{
+    position: relative;
+}
+.formRecruit button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    content: '';
+    background: #2c2c2c;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.formRecruit button:hover:before {
+    bottom: 0;
+}
+.gridR{
+    margin: 0 -15px;
+}
+.gridR:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.gridR .col1{
+    width:60%;
+    float:left;
+    padding:0 15px;
+}
+.gridR .col2{
+    width:25%;
+    float:left;
+    padding:0 15px;
+}
+.gridR .col3{
+    width:15%;
+    float:left;
+    padding:0 15px;
+}
+.gridR .col4{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.gridR .col5{
+    width: 33.333333%;
+    float: left;
+    padding: 0 15px;
+}
+/*================================================================*/
+/*=========================RESPONSIVE=============================*/
+/*================================================================*/
+@media all and (max-width: 1025px){
+#slideOther{
+    padding-bottom: 20px;
+}
+#slideOther .slick-arrow{
+    top:initial;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#slideOther .slick-prev{
+    margin-left: -25px;
+}
+#slideOther .slick-next{
+    margin-left: 25px;
+}
+}
+
+@media all and (max-width: 991px){
+.policy .tend h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+#slideOther .slick-list{
+    margin: 0 -10px;
+}
+#slideOther .item{
+    padding: 0 10px;
+}
+.vnt-main-top.v-detail .vnt-slide{
+    height:initial;
+    padding: 80px 10px 70px;
+}
+.vnt-main-top.v-detail .vnt-caption .fTitle{
+    font-size: 30px;
+    line-height: 40px;
+}
+.main-tools .wrapping{
+    padding: 10px 10px;
+}
+.recruitDesContent .grid{
+    display: block;
+}
+.recruitDesContent .grid .col{
+    width: 100%;
+}
+.recruitDesContent .cont{
+    float: none;
+    padding: 15px 20px;
+    padding-top: 70px;
+    max-width: 100%;
+}
+.recruitDesContent .cont:before {
+    top: 15px;
+    left: 20px;
+}
+.gridRR .col{
+    width:100%;
+}
+.recruitInfo .gridRR .col:last-child .Attr .n{
+    width: 160px;
+}
+.recruitInfo .gridRR .col:last-child .Attr .t{
+    width:initial;
+}
+.recruitInfo .gridRR .col:last-child .Attr{
+    justify-content: flex-start;
+}
+.gridR .col4{
+    width: 100%;
+}
+}
+
+@media all and (max-width: 768px){
+#slideOther .slick-list{
+    margin: 0 -5px;
+}
+#slideOther .item{
+    padding: 0 5px;
+}
+.recruitTable table thead {
+    display: none;
+}
+.recruitTable table tr {
+    display: block;
+    padding: 15px 20px;
+    border: solid 1px #dfdfdf;
+    border-bottom: none;
+    padding-left: 155px;
+    position: relative;
+}
+.recruitTable table tr:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    background: #008a80;
+}
+.recruitTable table tr td{
+    display: block;
+    padding:0;
+    border:none !important;
+    margin-bottom: 10px;
+    position: relative;
+    background: transparent;
+    text-align: left !important;
+}
+.recruitTable table tr td:before{
+    content: attr(data-cont);
+    position: absolute;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    left: -139px;
+    top: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+}
+
+@media all and (max-width: 767px){
+
+}
+
+@media all and (max-width: 640px){
+.boxRecruit{
+    padding: 15px 20px;
+}
+}
+
+@media all and (max-width: 420px){
+.formRecruit label{
+    width: 100%;
+    float: none;
+}
+.formRecruit .colRight{
+    width: 100%;
+}
+}
+
+@media all and (max-width: 380px){
+
+}
+

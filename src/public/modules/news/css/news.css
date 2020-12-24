@@ -1,0 +1,464 @@
+.newsS{
+    background: #f8fafd;
+    padding: 30px;
+    border:solid 1px rgba(0,0,0,0.15);
+}
+.newsS:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.newsS .img{
+    width:48%;
+    float: left;
+    position: relative;
+}
+.newsS .img a{
+    display: block;
+    padding-top: 66.666666%;
+    position: relative;
+    overflow: hidden;
+}
+.newsS .img a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s linear;
+    transition: -webkit-transform 4s cubic-bezier(0,.6,.45,1);
+    transition: transform 4s cubic-bezier(0,.6,.45,1);
+    transition: transform 4s cubic-bezier(0,.6,.45,1), -webkit-transform 7s cubic-bezier(0,.6,.45,1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.newsS .img:hover a img{
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.newsS .caption{
+    overflow: hidden;
+    padding: 20px 50px;
+}
+.newsS .per{
+    margin-bottom: 15px;
+}
+.newsS .per span {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    background: #fd742e;
+    padding: 5px 9px;
+    text-transform: uppercase;
+}
+.newsS .tend{
+    margin-bottom: 15px;
+}
+.newsS .tend a{
+    display: block;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-height: 80px;
+    overflow: hidden;
+}
+.newsS .des{
+    font-size: 15px;
+    line-height: 23px;
+    overflow: hidden;
+    max-height: 69px;
+    margin-bottom: 30px;
+}
+.newsS .date{
+	background: rgba(0, 138, 128, 0.9);
+	width: 60px;
+	height: 50px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+.newsS .date .day{
+	font-size: 20px;
+	line-height: 30px;
+	color:#ffffff;
+}
+.newsS .date .monyear{
+	font-size: 12px;
+	line-height: 20px;
+	color:#ffffff;
+}
+.newsS .link a{
+    width: 140px;
+    display: block;
+    background: #008a80;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 9px 5px;
+}
+.newsS .link a:hover{
+    background: #006961;
+}
+.slideNews{
+    margin-bottom: 40px;
+}
+.slideNews .slick-dots{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    z-index: 1;
+}
+.slideNews .slick-dots li{
+    margin-left: 10px;
+    display: inline-block;
+}
+.slideNews .slick-dots li button{
+    width:10px;
+    height:10px;
+    font-size: 0;
+    padding: 0;
+    border: solid 1px #bbbbbb;
+    border-radius: 100%;
+}
+.slideNews .slick-dots li.slick-active button{
+    background: #008a80;
+    border-color: #008a80;
+}
+.slideNews{
+    margin-bottom: 30px;
+}
+/*============================================================*/
+.vnt-news{
+    margin-bottom: 20px;
+}
+.news{
+    margin-bottom: 30px;
+}
+.news .img{
+    position: relative;
+}
+.news .img a{
+    display: block;
+    padding-top: 66.666666%;
+    position: relative;
+    overflow: hidden;
+}
+.news .img a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s linear;
+    transition: -webkit-transform 4s cubic-bezier(0,.6,.45,1);
+    transition: transform 4s cubic-bezier(0,.6,.45,1);
+    transition: transform 4s cubic-bezier(0,.6,.45,1), -webkit-transform 7s cubic-bezier(0,.6,.45,1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.news .img:hover a img{
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.news .date{
+    background: rgba(0, 138, 128, 0.9);
+    width: 60px;
+    height: 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.news .date .day{
+    font-size: 20px;
+    line-height: 30px;
+    color:#ffffff;
+}
+.news .date .monyear{
+    font-size: 12px;
+    line-height: 20px;
+    color:#ffffff;
+}
+.news .caption{
+    padding: 25px 35px;
+    background: #f8fafd;
+    border:solid 1px rgba(0,0,0,0.1);
+    border-top: none
+}
+.news .tend{
+    margin-bottom: 35px;
+}
+.news .tend a{
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    height: 52px;
+    overflow: hidden;
+    text-align: center;
+}
+.news .link{
+    text-align: center;
+}
+.news .link a{
+    width: 140px;
+    display: inline-block;
+    background: #008a80;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 9px 5px;
+}
+.news .link a:hover{
+    background: #006961;
+}
+/*===========================================================*/
+.vnt-main-top.v-detail{
+    margin-bottom: 0;
+}
+.vnt-main-top.v-detail .main-tools{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0;
+    box-shadow: none;
+}
+.vnt-main-top.v-detail .main-tools .breadcrumb ul li a{
+    padding: 10px 0;
+    display: block;
+}
+.vnt-main-top.v-detail .main-tools .wrap{
+    max-width: 970px;
+    margin: 0 auto;
+}
+.vnt-main-top.v-detail .vnt-caption .fTitle{
+    font-size: 55px;
+    line-height: 65px;
+}
+.vnt-main-top.v-detail .vnt-slide{
+    height: 450px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vnt-main-top.v-detail .vnt-caption{
+    position: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+.the-date{
+    text-align: center;
+    color:#ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.wrap-content{
+    padding: 25px 10px 45px;
+    background: #ffffff;
+    margin-bottom: 35px;
+}
+.wrap-content .wrap{
+    max-width: 970px;
+    margin:0 auto;
+}
+.the-content{
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #008a80;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+/*==========================================================*/
+.the-other .title{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.the-other .title h2{
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#008a80;
+}
+#slideOther .slick-list{
+    margin: 0 -15px;
+    padding: 10px 0;
+}
+#slideOther .item{
+    padding: 0 15px;
+}
+#slideOther .product{
+    margin-bottom: 0;
+}
+#slideOther .slick-arrow{
+    width:40px;
+    height:40px;
+    background: none;
+    border:none;
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    color:#008a80;
+}
+#slideOther .slick-prev{
+    left:-60px
+}
+#slideOther .slick-next{
+    right:-60px
+}
+#slideOther .slick-arrow:before{
+    font-family: FontAwesome;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    line-height: 24px;
+}
+#slideOther .slick-prev:before{
+    content: "\f060";
+}
+#slideOther .slick-next:before{
+    content: "\f061";
+}
+#slideOther .slick-arrow:hover{
+    color:#333333;
+}
+/*==========================================================================*/
+/*============================RESPONSIVE====================================*/
+/*==========================================================================*/
+@media all and (max-width: 1025px){
+#slideOther{
+    padding-bottom: 20px;
+}
+#slideOther .slick-arrow{
+    top:initial;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#slideOther .slick-prev{
+    margin-left: -25px;
+}
+#slideOther .slick-next{
+    margin-left: 25px;
+}
+}
+
+@media all and (max-width: 991px){
+.newsS{
+    padding: 15px;
+}
+.newsS .caption{
+    padding: 10px 25px;
+}
+.newsS .tend a{
+    font-size: 20px;
+    line-height: 30px;
+    max-height: 60px;
+}
+#slideOther .slick-list{
+    margin: 0 -10px;
+}
+#slideOther .item{
+    padding: 0 10px;
+}
+.vnt-main-top.v-detail .vnt-slide{
+    height:initial;
+    padding: 80px 10px 70px;
+}
+.vnt-main-top.v-detail .vnt-caption .fTitle{
+    font-size: 30px;
+    line-height: 40px;
+}
+.main-tools .wrapping{
+    padding: 10px 10px;
+}
+}
+
+@media all and (max-width: 768px){
+#slideOther .slick-list{
+    margin: 0 -5px;
+}
+#slideOther .item{
+    padding: 0 5px;
+}
+}
+
+@media all and (max-width: 767px){
+.newsS .img{
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.newsS .caption{
+    padding: 0;
+    padding-bottom: 20px;
+}
+.news .caption{
+    padding: 25px 10px;
+}
+.news .tend a{
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+}
+}
+
+@media all and (max-width: 640px){
+
+}
+
+@media all and (max-width: 480px){
+.vnt-news .row .col-xs-6{
+    width: 100%;
+}
+}
+
+@media all and (max-width: 380px){
+
+}

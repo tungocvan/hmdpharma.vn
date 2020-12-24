@@ -1,0 +1,218 @@
+.dessPartner{
+	max-width: 970px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.dessPartner .title{
+	font-size: 35px;
+	line-height: 45px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.dessPartner .des{
+	font-size: 15px;
+	line-height: 23px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.dessPartner .link{
+	text-align: center;
+}
+.dessPartner .link a{
+	display: inline-block;
+	width: 230px;
+	padding: 9px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#ffffff;
+	background: #008a80;
+}
+.dessPartner .link a:hover{
+	background: #00b7aa;
+}
+/*====================================================*/
+.vnt-partner{
+	margin-bottom: 20px;
+}
+.partner{
+	margin-bottom: 30px;
+	padding: 25px 30px;
+	border:solid 1px #eeeeee;
+	-webkit-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	position: relative;
+}
+.partner:hover{
+	box-shadow: 0px 6px 8px rgba(0, 138, 128, 0.2);
+}
+.partner .img {
+	padding-top: 50%;
+	position: relative;
+	margin-bottom: 10px;
+}
+.partner .img img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	max-height: 80%;
+	max-width: 80%;
+}
+.partner h3{
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: normal;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+}
+.partner .link{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+/*====================================================*/
+.designPopupPartner .fancybox-slide{
+	padding: 10px;
+}
+.designPopupPartner button[data-fancybox-close]{
+	width: 35px;
+	height: 35px;
+	color:#008a80;
+	top: 0px;
+	right: 0px;
+}
+#vnt-popup-partner{
+	padding: 25px 30px;
+	padding-bottom: 40px;
+}
+#vnt-popup-partner.v{
+	background: url(../images/partner/bg.jpg) no-repeat right top;
+}
+#vnt-popup-partner .title{
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#008a80;
+	margin-bottom: 25px;
+}
+#vnt-popup-partner .form-group{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: flex-start;
+}
+#vnt-popup-partner label{
+	width: 170px;
+	flex-shrink: 0;
+}
+#vnt-popup-partner label span{
+	color:#008a80;
+}
+#vnt-popup-partner .colRight{
+	width:-webkit-calc(100% - 170px);
+	width:-moz-calc(100% - 170px);
+	width:-o-calc(100% - 170px);
+	width:calc(100% - 170px);
+}
+#vnt-popup-partner input[type="text"],
+#vnt-popup-partner input[type="file"],
+#vnt-popup-partner select,
+#vnt-popup-partner textarea{
+	width: 100%;
+	height: 45px;
+	padding-left: 10px;
+	border:solid 1px rgba(0,0,0,0.15);
+}
+#vnt-popup-partner input[type="file"]{
+	padding: 10px;
+}
+#vnt-popup-partner textarea{
+	height: 100px;
+	resize: none;
+	padding: 10px;
+}
+#vnt-popup-partner button{
+	display: inline-block;
+	width: 220px;
+	padding: 9px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#ffffff;
+	background: #008a80;
+	border:none;
+}
+#vnt-popup-partner button:hover{
+	background: #000000;
+}
+#vnt-popup-partner .txt{
+	text-align: center;
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+/*================================================================*/
+/*=========================RESPONSIVE=============================*/
+/*================================================================*/
+@media all and (max-width: 1025px){
+
+}
+
+@media all and (max-width: 991px){
+.dessPartner .title{
+	font-size: 25px;
+	line-height: 33px;
+}
+.partner{
+	padding: 15px 10px;
+}
+#vnt-popup-partner .title{
+	font-size: 25px;
+	line-height: 33px;
+}
+}
+
+@media all and (max-width: 768px){
+
+}
+
+@media all and (max-width: 767px){
+
+}
+
+@media all and (max-width: 640px){
+
+}
+
+@media all and (max-width: 480px){
+#vnt-popup-partner .form-group{
+	display: block;
+}
+#vnt-popup-partner label,
+#vnt-popup-partner .colRight{
+	width: 100%;
+}
+#vnt-popup-partner{
+	padding: 25px 20px;
+}
+}
+
+@media all and (max-width: 380px){
+.vnt-partner .row .col-xs-6{
+	width: 100%;
+}
+}
