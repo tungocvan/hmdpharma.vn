@@ -7,7 +7,7 @@
         outDuration: 400,
         linkElement: 'a:not([dnot])',
         timeout: true,
-        timeoutCountdown: 5000,
+        timeoutCountdown: 100,
         onLoadEvent: true,
         browser: [ 'animation-duration', '-webkit-animation-duration'],
         overlay : false,
